@@ -1,0 +1,17 @@
+%nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background-color: $nav-bg-color;
+    
+    > li {
+        padding: $nav-item-padding;
+        text-align: center;
+        color: $nav-color;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $nav-color--over;
+        }
+    }
+}
